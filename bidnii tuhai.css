@@ -45,9 +45,10 @@ img{
     margin-left: 80px;
 }
 .map{
-    width: 200px;
-    height: 100px;
+    width: 220px;
+    height: 120px;
     margin-right: 30px;
+    border: 1px solid grey;
 }
 .icon{
     font-size: 30px;
