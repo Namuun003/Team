@@ -16,8 +16,12 @@
     display: flex;
     align-items: center;
 }
+.center2{
+    display: flex;
+    justify-content: center;
+}
 .left{
-    width: 70%;
+    width: 50%;
     height: 700px;
     display: flex;
     flex: wrap;
@@ -47,6 +51,7 @@ img{
 }
 .icon{
     font-size: 30px;
+    width: 40px;
 }
 .hayg{
     display: flex;
@@ -60,3 +65,19 @@ img{
     display: flex;
     margin-left: 100px;
 }
+.right{
+    width: 50%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-top: 130px;
+}
+.main{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
