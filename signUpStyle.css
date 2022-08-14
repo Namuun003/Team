@@ -11,7 +11,14 @@ body{
     border-radius: 5px;
     border: 1px solid grey;
     text-align: center;
-    padding: 5px 0 5px 0 ;
+    height: 30px;
+}
+input{
+    border: none;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
 }
 .wrapper{
     width: 100%;
@@ -22,7 +29,7 @@ body{
 }
 .con{
     /* background-color: cyan; */
-    height: 80vh;
+    height: 60vh;
     width: 250px;
     display: flex;
     flex-direction: column;
@@ -40,7 +47,7 @@ body{
     width: 100%;
     border-radius: 15px;
 }
-.box{
+.box {
     margin: 30px 0 30px 0;
     display: flex;
     align-items: center;
@@ -49,10 +56,15 @@ body{
 }
 .signUp{
     color: rgb(255, 115, 0);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
 }
 .w-name{
     color: white;
     height: 50px;
     width: 100%;
     font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 30px;
 }
