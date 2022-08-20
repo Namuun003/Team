@@ -1,6 +1,10 @@
+
 *{
     margin: 0;
     padding: 0;
+}
+a{
+    text-decoration: none;
 }
 .container{
     background-color: rgba(213, 158, 158, 1);
@@ -97,7 +101,7 @@ img{
 .nav{
     background-color: rgba(224, 213, 213, 0%);
     backdrop-filter: blur(10px);
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.20);
     position: absolute;
     position: fixed;
     width: 100%;
